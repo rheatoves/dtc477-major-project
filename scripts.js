@@ -62,11 +62,14 @@ function Recipe(a, b, c, d) {
 
 let HomePage = new Recipe("Easy & Gluten-Free", "hp-ingredients.html", "hp-directions.html", "https://cdn.shopify.com/s/files/1/0376/8850/8553/articles/Hot_Honey_Holiday_Spread_4_AJB_1.jpg?v=1667842757")
 
+let BreakfastBurritos = new Recipe("Breakfast Burritos", "bb-ingredients.html", "bb-directions.html", "https://www.mommyhatescooking.com/wp-content/uploads/2021/06/Breakfast-Burritos-Set-1-Final-3-1572x2048.jpg")
+
 
 // Adding event listener to wait for the DOM to load before running the AJAX code to load the 2 files
 document.addEventListener("DOMContentLoaded", function() {
     
     HomePage.addToNav();
+    BreakfastBurritos.addToNav();
 
 
 });
