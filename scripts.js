@@ -64,12 +64,18 @@ let HomePage = new Recipe("Easy & Gluten-Free", "hp-ingredients.html", "hp-direc
 
 let BreakfastBurritos = new Recipe("Breakfast Burritos", "bb-ingredients.html", "bb-directions.html", "https://www.mommyhatescooking.com/wp-content/uploads/2021/06/Breakfast-Burritos-Set-1-Final-3-1572x2048.jpg")
 
+let Pancakes = new Recipe("Pancakes", "p-ingredients.html", "p-directions.html", "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/20/85/56/CspPqjBqS1G0npE30mXx-075-gluten-free-pancakes.jpg")
+
+let BakedOats = new Recipe("Baked Oats", "bo-ingredients.html", "bo-directions.html", "https://nourisheveryday.com/wp-content/uploads/2018/07/Coconut-Blueberry-Baked-Oats-B.jpg")
+
 
 // Adding event listener to wait for the DOM to load before running the AJAX code to load the 2 files
 document.addEventListener("DOMContentLoaded", function() {
     
     HomePage.addToNav();
     BreakfastBurritos.addToNav();
+    Pancakes.addToNav();
+    BakedOats.addToNav();
 
 
 });
