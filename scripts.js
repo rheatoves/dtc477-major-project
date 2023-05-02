@@ -68,6 +68,10 @@ let Pancakes = new Recipe("Pancakes", "p-ingredients.html", "p-directions.html",
 
 let BakedOats = new Recipe("Baked Oats", "bo-ingredients.html", "bo-directions.html", "https://nourisheveryday.com/wp-content/uploads/2018/07/Coconut-Blueberry-Baked-Oats-B.jpg")
 
+let BreakfastCasserole = new Recipe("Breakfast Casserole", "bc-ingredients.html", "bc-directions.html", "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/12/Breakfast-Casserole-24.jpg")
+
+let BlueberryMuffins = new Recipe("BlueberryMuffins", "bm-ingredients.html", "bm-directions.html", "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2022-12/KABC_Quick-Breads_Blueberry-Muffin_08304.jpg?itok=EM7XxPfL")
+
 
 // Adding event listener to wait for the DOM to load before running the AJAX code to load the 2 files
 document.addEventListener("DOMContentLoaded", function() {
@@ -76,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
     BreakfastBurritos.addToNav();
     Pancakes.addToNav();
     BakedOats.addToNav();
-
+    BreakfastCasserole.addToNav();
+    BlueberryMuffins.addToNav();
 
 });
