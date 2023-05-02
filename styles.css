@@ -1,0 +1,131 @@
+/* This is Mobile-first CSS for three blocks. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10;
+  margin: 10;
+  background-color: #FAEBD7;
+}
+
+#navBar {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    background-color: white;
+}
+
+#navBar ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#navBar ul li {
+    float: left;
+    padding: 10px 20px 0 10px;
+    color: black;
+}
+
+/* Setting "ingredients" and "directions" h2 tags. */
+h2 {
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 0.3em;
+  align-items: center;
+  padding-left: 1em;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  padding-left: 2em;
+}
+
+li span {
+  font-style: italic;
+}
+
+/* Setting the background image's size and location.*/
+#hero {
+  background-size: cover;
+  baground-position: center center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Setting the h1 tag location, size, font, color, alignment, shadow, with padding and margin.*/
+#hero h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100vw;
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 0 0 10px #444;
+  font-family: "Playfair Display", serif;
+}
+
+/* Adjusting the layout of content blocks. */
+#contentBlocks {
+  display: flex;
+  flex-direction: column;
+}
+
+#contentBlocks div {
+  padding: 1vw;
+  flex-grow: 1;
+}
+
+/* Changing the background color of the three blocks. */
+#ingredientsBlock {
+}
+
+#directionsBlock {
+}
+
+#sharingBlock {
+}
+
+/* Positioning the content in the three blocks. */
+div#contentBlocks {
+  position: relative;
+}
+
+div#contentBlocks div {
+  width: 100%;
+  float: left;
+}
+
+div#contentBlocks: after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Portrait mode at default and setting the content blocks in row format when in landscape mode. */
+@media (orientation: landscape) {
+  #contentBlocks {
+    flex-direction: row;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+
+/* Setting the background color of screen when display is 575px. */
+@media only screen and (max-width: 575px) {
+  body {
+    background-color: #2f4f4f;
+  }
+}
+
+.copyright {
+  font-family: "Playfair Display", serif;
+  font-size: 9px;
+  font-style: italic;
+}
