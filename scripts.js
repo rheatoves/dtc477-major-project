@@ -86,6 +86,22 @@ let ChickenFajitas = new Recipe("Chicken Fajitas", "cf-ingredients.html", "cf-di
 
 let ChickenStirfry = new Recipe("Chicken Stir-Fry", "csf-ingredients.html", "csf-directions.html", "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/05/Chicken-Stir-Fry-main-1.jpg")
 
+let Chili = new Recipe("Chili", "c-ingredients.html", "c-directions.html", "https://www.sipandfeast.com/wp-content/uploads/2023/01/classic-chili-recipe-snippet.jpg")
+
+let MacCheese = new Recipe("Mac n Cheese", "mc-ingredients.html", "mc-directions.html", "https://pinchofyum.com/wp-content/uploads/Instant-Pot-Mac-and-Cheese-Square.jpg")
+
+let BeefStew = new Recipe("Beef Stew", "bs-ingredients.html", "bs-directions.html", "https://thecozycook.com/wp-content/uploads/2020/09/Slow-Cooker-Beef-Stew-Recipe-f.jpg")
+
+let Dates = new Recipe("Date Energy Balls", "d-ingredients.html", "d-directions.html", "https://www.wellplated.com/wp-content/uploads/2015/01/Fig-and-Almond-No-Bake-Energy-Bites.-Easy-healthy-vegan-and-gluten-free.jpg")
+
+let CinnamonBread = new Recipe("Cinnamon Raisin Bread", "crb-ingredients.html", "crb-directions.html", "https://littlespoonfarm.com/wp-content/uploads/2023/01/cinnamon-raisin-swirl-sourdough-bread-recipe.jpg")
+
+let LemonSnack = new Recipe("Lemon Snack Mix", "lsm-ingredients.html", "lsm-directions.html", "https://bakeatmidnite.com/wp-content/uploads/2020/11/lemon-chex-mix-pin-500x375.jpg")
+
+let GarlicBread = new Recipe("Garlic Bread Bites", "gbb-ingredients.html", "gbb-directions.html", "https://www.cakenknife.com/wp-content/uploads/2015/11/Garlic-Bread-Bites-with-Honey-Butter-Thumbnail-480x360.jpg")
+
+let TexMex = new Recipe("Tex Mex Popcorn", "tmp-ingredients.html", "tmp-directions.html", "https://dairyfarmersofcanada.ca/sites/default/files/styles/recipe_image/public/image_file_browser/conso_recipe/tex-mex-popcorn.jpg.jpeg?itok=tt64m__X")
+
 // Adding event listener to wait for the DOM to load before running the AJAX code to load the 2 files
 document.addEventListener("DOMContentLoaded", function() {
     
@@ -102,5 +118,13 @@ document.addEventListener("DOMContentLoaded", function() {
     HummusBowls.addToNav();
     ChickenFajitas.addToNav();
     ChickenStirfry.addToNav();
+    Chili.addToNav();
+    MacCheese.addToNav();
+    BeefStew.addToNav();
+    Dates.addToNav();
+    CinnamonBread.addToNav();
+    LemonSnack.addToNav();
+    GarlicBread.addToNav();
+    TexMex.addToNav();
 
 });
