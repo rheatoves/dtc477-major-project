@@ -70,8 +70,21 @@ let BakedOats = new Recipe("Baked Oats", "bo-ingredients.html", "bo-directions.h
 
 let BreakfastCasserole = new Recipe("Breakfast Casserole", "bc-ingredients.html", "bc-directions.html", "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/12/Breakfast-Casserole-24.jpg")
 
-let BlueberryMuffins = new Recipe("BlueberryMuffins", "bm-ingredients.html", "bm-directions.html", "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2022-12/KABC_Quick-Breads_Blueberry-Muffin_08304.jpg?itok=EM7XxPfL")
+let BlueberryMuffins = new Recipe("Blueberry Muffins", "bm-ingredients.html", "bm-directions.html", "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/2022-12/KABC_Quick-Breads_Blueberry-Muffin_08304.jpg?itok=EM7XxPfL")
 
+let EggMuffins = new Recipe("Egg Muffins", "em-ingredients.html", "em-directions.html", "https://www.wholesomeyum.com/wp-content/uploads/2017/08/wholesomeyum-low-carb-keto-egg-muffins-egg-muffin-cups-recipe-5.jpg")
+
+let EggSalad = new Recipe("Egg Salad", "es-ingredients.html", "es-directions.html", "https://www.culinaryhill.com/wp-content/uploads/2022/05/Egg-Salad-Culinary-Hill-1200x800-1.jpg")
+
+let TofuScramble = new Recipe("Tofu Scramble", "ts-ingredients.html", "ts-directions.html", "https://www.hotforfoodblog.com/wp-content/uploads/2014/07/theperfecttofuscramble_filtered1.jpg")
+
+let VanillaSmoothie = new Recipe("Vanilla Protein Smoothie", "vs-ingredients.html", "vs-directions.html", "https://deliciousmadeeasy.com/wp-content/uploads/2017/10/vanilla-smoothie-3-of-3-720x720.jpg")
+
+let HummusBowls = new Recipe("Hummus Bowls", "hb-ingredients.html", "hb-directions.html", "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FSeries%2F2019-07-snapshot-cooking-hummus-bowls%2FHummus-Bowl-Mediterranean_002")
+
+let ChickenFajitas = new Recipe("Chicken Fajitas", "cf-ingredients.html", "cf-directions.html", "https://hips.hearstapps.com/hmg-prod/images/chicken-fajitas-horizontal-jpg-1522721531.jpg?crop=1xw:0.8435812837432514xh;center,top")
+
+let ChickenStirfry = new Recipe("Chicken Stir-Fry", "csf-ingredients.html", "csf-directions.html", "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2021/05/Chicken-Stir-Fry-main-1.jpg")
 
 // Adding event listener to wait for the DOM to load before running the AJAX code to load the 2 files
 document.addEventListener("DOMContentLoaded", function() {
@@ -82,5 +95,12 @@ document.addEventListener("DOMContentLoaded", function() {
     BakedOats.addToNav();
     BreakfastCasserole.addToNav();
     BlueberryMuffins.addToNav();
+    EggMuffins.addToNav();
+    EggSalad.addToNav();
+    TofuScramble.addToNav();
+    VanillaSmoothie.addToNav();
+    HummusBowls.addToNav();
+    ChickenFajitas.addToNav();
+    ChickenStirfry.addToNav();
 
 });
